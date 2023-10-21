@@ -1,0 +1,32 @@
+<html>
+        <body></body>
+        <style></style>
+        <script>let month = prompt("What month is it right now?");
+let day = Number(prompt("What day is it today?"));
+
+if(month === 'April' || month === 'May') {
+    console.log('Spring');
+    alert("Spring")
+    } else if((day >= 20 && month === 'March') || (day < 21 && month === 'Jun')) {
+        console.log('Spring');
+        alert("Spring")
+    } else if(month === 'July' || month === 'August') {
+        console.log("Summer");
+        alert("Summer");
+    } else if((day >= 21 && month === 'June') || (day < 22 && month === 'September')){      
+        console.log("Summer");
+        alert("Summer");
+    } else if (month === 'October' || month === 'November') {
+        console.log("Autumn");
+        alert("Autumn");
+    } else if ((day >= 22 && month === 'Sept') || (day < 21 && month === 'Dec')) {
+        console.log("Autumn");
+        alert("Autumn");
+    } else if (month === 'October' || month === 'November') {
+        console.log("Winter");
+        alert("Winter");
+    } else if((day >= 21 && month === 'December') || (day < 20 && month === 'March')){
+        console.log("Winter");
+        alert("Winter");
+    }</script>
+      </html>
